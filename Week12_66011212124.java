@@ -42,7 +42,6 @@ public class Week12_66011212124 {
         if (status == true) {
             return false;
         } else {
-
             return process_number_1(data, Integer.parseInt(Character.toString(data.charAt(12))));
         }
     }
