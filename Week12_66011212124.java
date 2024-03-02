@@ -37,6 +37,8 @@ public class Week12_66011212124 {
             if (Character.isLetter(data.charAt(i))) {
                 status = Character.isLetter(data.charAt(i));
                 break;
+            } else {
+                status = false;
             }
         }
         if (status == true) {

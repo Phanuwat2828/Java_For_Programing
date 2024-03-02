@@ -10,8 +10,11 @@ class study {
         }
     }
 
-    private static int kai(int kai) {
-        return 0;
+    private static String kai(String kai) {
+        StringBuffer st = new StringBuffer(kai);
+        String data = st.deleteCharAt(0).toString();
+        return st.toString();
+
     }
 
     static int kai(int kai, int cai) {
@@ -24,10 +27,8 @@ class study {
     }
 
     public static void main(String[] args) {
-
-        kai();
-        int data[][][][] = { { { { 1 } }, { { 1 } } }, {} };
-        System.out.print(data[0][1][0][0]);
+        String test = "kai";
+        System.out.print(kai(test));
     }
 
 }
