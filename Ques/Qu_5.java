@@ -11,7 +11,7 @@ public class Qu_5 {
         char oporator = ' ';
         boolean status = false;
         double sum =0;
-        String data_num[] = data.split("[*/+-]");
+        String data_num[] = data.split("[*%/+-]");
         num1 = Integer.parseInt(data_num[0]);
         num2 = Integer.parseInt(data_num[1]);
         oporator = data.charAt(data_num[0].length());
