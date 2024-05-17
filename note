@@ -13,17 +13,17 @@
          - toString
       - Integer
          - parseInt
+         - toString
       - Character
          - isDigit
          - isLetter
          - isLowerCase
+         - isUpperCase
          - isLetterOrDigit
          - isUpperCase
          - isSpace
-      - String
+      - StringBuffer
          - append
-         - deleteCharAt
-         - delete
    - java.util
       - StringTokenizer
          - countTokens
@@ -41,3 +41,5 @@
    - ?????
    - ?????
    - ?????
+
+seting excl
